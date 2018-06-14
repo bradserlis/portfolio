@@ -17,19 +17,25 @@ console.log('sanity check');
 
 const show_project = (data) => {
   if($(data).index() === 0){
-    console.log('this should make ninja arena appear')
+    $('#ninja_arena').show()
+    $('#jammate').hide()
+    $('#jammate').removeClass("scale-in")
+    $('#tell_em').hide()
+    $('#tell_em').removeClass("scale-in")
     $('#ninja_arena').addClass("scale-in")
-    $('#jammate').removeClass("scale-in")
-    $('#tell_em').removeClass("scale-in")
-  }else if($(data).index()=== 1){
-    console.log('this should make jammate appear')
+  }if($(data).index()=== 1){
+    $('#jammate').show()
+    $('#ninja_arena').hide()
     $('#ninja_arena').removeClass("scale-in")
+    $('#tell_em').hide()
+    $('#tell_em').removeClass("scale-in")
     $('#jammate').addClass("scale-in")
-    $('#tell_em').removeClass("scale-in")
-  }else if($(data).index()===2){
-    console.log('this should make tell_em appear')
-    $('#ninja_arena').removeClass("scale-in")
+  }if($(data).index()===2){
+    $('#tell_em').show()
     $('#jammate').removeClass("scale-in")
+    $('#jammate').hide()
+    $('#ninja_arena').removeClass("scale-in")
+    $('#ninja_arena').hide() 
     $('#tell_em').addClass("scale-in")
   }
 }
