@@ -31,4 +31,14 @@
      -o-transform: translate(-50%, -50%)
      transform: translate(-50%, -50%);
 }
+
+#ninja-arena-display{
+    width:400px;
+}
+#jammate-display{
+    width:400px;
+}
+#tell-em-display{
+    width: 200px;
+    height: 350px;
 }
