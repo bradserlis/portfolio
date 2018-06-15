@@ -11,6 +11,7 @@ console.log('sanity check');
       show_project(data);
     }
 });
+        $('.sidenav').sidenav();
     $('.scrollspy').scrollSpy();
 
 })
