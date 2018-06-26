@@ -19,17 +19,17 @@ console.log('sanity check');
 const show_project = (data) => {
   if($(data).index() === 0){
     $('#ninja_arena').show()
-    $('#jammate').hide()
     $('#jammate').removeClass("scale-in")
-    $('#tell_em').hide()
+    $('#jammate').hide()
     $('#tell_em').removeClass("scale-in")
+    $('#tell_em').hide()
     $('#ninja_arena').addClass("scale-in")
   }if($(data).index()=== 1){
     $('#jammate').show()
-    $('#ninja_arena').hide()
     $('#ninja_arena').removeClass("scale-in")
-    $('#tell_em').hide()
+    $('#ninja_arena').hide()
     $('#tell_em').removeClass("scale-in")
+    $('#tell_em').hide()
     $('#jammate').addClass("scale-in")
   }if($(data).index()===2){
     $('#tell_em').show()
