@@ -1,6 +1,23 @@
+body{
+    background: #020013;
+}
+
+p{
+    font-family: 'Dosis', sans-serif;
+
+}
 .carousel{
     overflow: visible;
-    height: 350px;
+    height: 240px;
+;
+}
+
+/*html body main div.section div.carousel a.carousel-item{
+    transform: translateX(398.5px) translateY(0px) translateX(0px) translateX(0px) translateZ(0px) !important;
+}*/
+
+.scale-transition.scale-out{
+    transition: transform .8s, -webkit-transform .8s !important;
 }
 
  .parallax-container.band_photo{
@@ -36,6 +53,15 @@
 #ninja-arena-display{
     width:400px;
 }
+
+#ninja_arena, #jammate, #tell_em{
+    background: white;
+    border: 1px solid #25cbd3;
+    border-radius: 80px;
+    padding-left: 35px;
+    margin-bottom: 30px;
+}
+
 #jammate-display{
     width:400px;
 }
