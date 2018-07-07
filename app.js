@@ -26,7 +26,7 @@ var instance = new TypeIt('#whoami', {
 });
 
 new TypeIt('#whoami', {
-    strings: ["Web Developer.", "Software Developer.", "Gamer.", "Musician.", "<strong>Full Stack Developer.</strong>"],
+    strings: ["Web Developer.", "Software Developer.", "Gamer.", "Musician.", "<span class='fsd'> Full Stack Developer.</span>"],
     speed: 85,
     breakLines: false,
     autoStart: false

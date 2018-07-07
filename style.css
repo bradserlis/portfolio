@@ -1,3 +1,12 @@
+/*fonts*/
+/*
+font-family: 'Advent Pro', sans-serif;
+font-family: 'Archivo Narrow', sans-serif;
+font-family: 'Poor Story', cursive;
+font-family: 'Dosis', sans-serif;
+font-family: 'PT Sans Narrow', sans-serif;
+*/
+
 
 body{
     background: #020013;
@@ -12,15 +21,21 @@ p{
     color: black;
 }
 
+.fsd{
+color: rgb(11, 222, 222);
+}
+
 #name h1{
     font-size: 200px;
     text-align: center;
-    font-family: 'PT Sans Narrow', sans-serif;
+   font-family: 'Advent Pro', sans-serif;
+    color: white;
 }
 
 #whoami{
     text-align: center;
-    font-family: 'PT Sans Narrow', sans-serif;
+font-family: 'Poor Story', cursive;
+    color: white;
 }
 
 .carousel{
