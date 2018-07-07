@@ -16,6 +16,33 @@ console.log('sanity check');
 
 })
 
+// === 
+// typeit.js
+// ===
+
+var instance = new TypeIt('#whoami', {
+    // strings: ['This is my string!'],
+    //-- Other options...
+});
+
+new TypeIt('#whoami', {
+    strings: ["Web Developer.", "Software Developer.", "Gamer.", "Musician.", "<strong>Full Stack Developer.</strong>"],
+    speed: 85,
+    breakLines: false,
+    autoStart: false
+});
+
+// 
+
+$(document).scroll(function() {
+  var y = $(this).scrollTop();
+  if (y > 400) {
+    $('.name').fadeIn();
+  } else {
+    $('.name').fadeOut();
+  }
+});
+
 const show_project = (data) => {
   if($(data).index() === 0){
     $('#ninja_arena').show()
