@@ -1,16 +1,37 @@
+
 body{
     background: #020013;
+    color: black;
 }
 
 p{
     font-family: 'Dosis', sans-serif;
-
 }
+
+.skills{
+    color: black;
+}
+
+#name h1{
+    font-size: 200px;
+    text-align: center;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+#whoami{
+    text-align: center;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
 .carousel{
     overflow: visible;
     height: 240px;
 ;
 }
+
+/*.chickenrace img{
+    height:153.48px;
+}*/
 
 /*html body main div.section div.carousel a.carousel-item{
     transform: translateX(398.5px) translateY(0px) translateX(0px) translateX(0px) translateZ(0px) !important;
@@ -69,4 +90,6 @@ p{
     width: 200px;
     height: 350px;
 }
+
+
 
