@@ -16,6 +16,12 @@ console.log('sanity check');
 
 })
 
+// reveal
+
+window.sr = ScrollReveal({ reset: true });
+sr.reveal('#skills', { duration: 700 });
+sr.reveal('#aboutme', { duration: 700 });
+
 // === 
 // typeit.js
 // ===

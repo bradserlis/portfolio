@@ -37,7 +37,11 @@
                 <li><a href="projects.html">Projects</a></li>
             </ul>  
     </header>
+    
     <main>
+      <div id="name"><h1>Bradley Serlis</h1></div>
+      <div><h2 id="whoami">Full-Stack Developer</h2></div>
+      <!-- project demos -->
       <div class="row">
         <div class="col s12 m4">
           <div class="card">
@@ -61,29 +65,90 @@
             </div>
         </div>
       </div>
-      <div id="name"><h1>Bradley Serlis</h1></div>
-      <div><h2 id="whoami">Full-Stack Developer</h2></div>
-
-<div class="parallax-container">
-          <div class="parallax"><img src="images/path_background.jpg"></div>
-        </div>
-        <div class="section white">
-          <div class="row container">
-            <img class="circle profile-photo center-align center-me" src="images/profile.jpeg">
-            <h1 class='center z-depth-1 skills'>Javascript</h1>
-            <h4 class='center z-depth-2 skills'>Something Else</h4>
-            <h4 class='center z-depth-2 skills'>Something Else</h4>
-            <h4 class='center z-depth-2 skills'>Something Else</h4>
-            <h4 class='center z-depth-2 skills'>Something Else</h4>
-            <h4 class='center z-depth-2 skills'>Something Else</h4>
-            <h4 class='center z-depth-2 skills'>Something Else</h4>
-          </div>
-        </div>
-        <div>
-            <h2>About me</h2>
+      <!--  -->
+      <!-- skills -->
+      <div class="parallax-container">
+                <div class="parallax path_background"><img src="images/path_background.jpg"></div>
+              </div>
+              <div class="section white">
+                <div class="row container" id="skills">
+                  <img class="circle profile-photo center-align center-me" src="images/profile.jpeg">
+                  <h1 class='center z-depth-1 skills'>Javascript</h1>
+                  <h4 class='center z-depth-2 skills'>Something Else</h4>
+                  <h4 class='center z-depth-2 skills'>Something Else</h4>
+                  <h4 class='center z-depth-2 skills'>Something Else</h4>
+                  <h4 class='center z-depth-2 skills'>Something Else</h4>
+                  <h4 class='center z-depth-2 skills'>Something Else</h4>
+                  <h4 class='center z-depth-2 skills'>Something Else</h4>
+                </div>
+              </div>
+        <!--  -->
+        <!-- about me -->
+        <div id="aboutme">
+            <h2>About Me</h2>
             <p>As a developer, I look for new ways to connect our stories with one another through accessible technologies. I believe everyone has a story to tell — a story they are writing, and I am driven to find creative ways to simplify writing that story. I am a dreamer looking to leave an impact on connecting people in ways significant to them. <p>
+        <!--  -->
           <div class="parallax-container band_photo">
-            <div class="parallax"><img src="images/band_shot.jpg"></div>
+            <div class="parallax"><img src="images/band_shot.jpg">
+            <!-- carousel -->
+        <!-- <div class="section"> -->
+            <div class="carousel">
+                <a class="carousel-item" href="#ninja_arena"><img src="images/ninja_arena_thumbnail.png"></a>
+                <a class="carousel-item" href="#jammate"><img src="images/jammate_thumbnail.png"></a>
+                <a class="carousel-item" href="#tell_em"><img src="images/tellem_thumbnail2.png"></a>
+            </div>
+        <!-- </div> -->
+        <!-- projects -->
+            <div class="container">
+                <div id="ninja_arena" class="section scrollspy scale-transition scale-out">
+                    <h4>Ninja Arena</h4>
+                    <div class='row'>  
+                        <div class='col l6 s12'>
+                            <img id='ninja-arena-display'src="images/ninja-arena-medium.jpeg" alt="">
+                        </div>
+                        <div class='col l6 s12'>
+                            <p>Category: Top-Down Retro Arcade Game</p>
+                            <p class="flow-text">What is Ninja Arena? </p>
+                            <div class="chip">Phaser</div>
+                            <div class="chip">JavaScript</div>    
+                        </div>
+                    </div>
+                </div>
+                <div id="jammate" class="section scrollspy scale-transition scale-out hoverable">
+                    <h4>JamMate</h4>
+                    <div class='row'>
+                    <div class='col l6 s12'>
+                            <img id='jammate-display'src="images/jammate-medium.jpeg" alt="">
+                    </div>   
+                    <div class='col l6 s12'> 
+                    <p>Category: Social Networking App</p>
+                    <p class="flow-text">JamMate is an app connecting you with local musicians looking to find new people to play music with. Whether your intention is to add members to an existing band, join another person's group, or to simply find a new like-minded friend to play music with, JamMate can quickly connect you to the individuals near you.</p>
+                    </div>
+                    <div class="chip">MongoDB</div>
+                    <div class="chip">Express</div>
+                    <div class="chip">Node.JS</div>
+                    <div class="chip">JavaScript</div>
+                </div>
+                </div>
+                <div id="tell_em" class="hoverable section scrollspy scale-transition scale-out">
+                    <h4>TellEm</h4>
+                    <div class='row'>
+                    <div class='col l5 s12'>
+                            <img id='tell-em-display'src="images/tell-em.png" alt="">
+                    </div>
+                    <div class='col l7 s12'>
+                    <p>Category: Social App</p>
+                    <p class="flow-text">TellEm is an anonymous community-centric forum for asking questions about the relationships in your life - romantic or platonic, roomates, co-workers, bosses, bandmates, teammates, etc</p>
+                    </div>
+                    <div class="chip">React-Native</div>
+                    <div class="chip">FireBase</div>
+                    <div class="chip">JavaScript</div>
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>    
+
           </div>
         </div>
         <div>
@@ -121,6 +186,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
     <!-- typeit.js -->
   <script src="https://cdn.jsdelivr.net/npm/typeit@5.10.1/dist/typeit.min.js"></script>
+  <!-- scrollreveal -->
+  <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
 <!-- main js -->
     <script src="app.js"></script>
   </body>
