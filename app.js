@@ -34,14 +34,14 @@ new TypeIt('#whoami', {
 
 // 
 
-$(document).scroll(function() {
-  var y = $(this).scrollTop();
-  if (y > 400) {
-    $('.name').fadeIn();
-  } else {
-    $('.name').fadeOut();
-  }
-});
+// $(document).scroll(function() {
+//   var y = $(this).scrollTop();
+//   if (y > 400) {
+//     $('.name').fadeIn();
+//   } else {
+//     $('.name').fadeOut();
+//   }
+// });
 
 const show_project = (data) => {
   if($(data).index() === 0){
