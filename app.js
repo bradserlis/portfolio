@@ -22,6 +22,9 @@ window.sr = ScrollReveal({ reset: true });
 sr.reveal('#skills', { duration: 700 });
 sr.reveal('#aboutme', { duration: 700 });
 sr.reveal('.band_photo', { duration: 1000 });
+sr.reveal('.row', { duration: 1000 });
+sr.reveal('.path_background', { duration: 1000 });
+sr.reveal('.carousel', { duration: 1000 });
 
 // === 
 // typeit.js
@@ -33,7 +36,7 @@ var instance = new TypeIt('#whoami', {
 });
 
 new TypeIt('#whoami', {
-    strings: ["Web Developer.", "Software Developer.", "Gamer.", "Musician.", "<span class='fsd'> Full Stack Developer.</span>"],
+    strings: ["Web Developer.", "Software Developer.", "Gamer.", "Musician.", "<span class='colorful-background'> Full Stack Developer.</span>"],
     speed: 85,
     breakLines: false,
     autoStart: false
