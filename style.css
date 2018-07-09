@@ -38,6 +38,9 @@ font-family: 'Poor Story', cursive;
     color: white;
 }
 
+#aboutme{
+    color: white;
+}
 .carousel{
     overflow: visible;
     height: 240px;
@@ -58,7 +61,11 @@ font-family: 'Poor Story', cursive;
 
  .parallax-container.band_photo{
       height: 600px;
-    }
+} 
+
+.parallax-container.path_background{
+      height: 400px;
+}
 
 .profile-photo{
     width: 80px;
