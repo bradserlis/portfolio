@@ -19,17 +19,27 @@ p{
 
 .skills{
     color: black;
+    display: inline;
 }
 
-.fsd{
-color: rgb(11, 222, 222);
+.textswap{
+    writing-mode: tb-rl;
+    transform: rotate(-180deg);
 }
+
+/*.fsd{
+color: rgb(11, 222, 222);
+    border: 1px solid blue;
+    border-radius: 30px;
+    background: rgba(57, 72, 142, .3);
+        padding: 2px 15px;
+}*/
 
 #name h1{
-    font-size: 200px;
-    text-align: center;
+    font-size: 180px;
    font-family: 'Advent Pro', sans-serif;
     color: white;
+    text-shadow: 1px 1px 10px #8af5eb;
 }
 
 #whoami{
@@ -38,8 +48,24 @@ font-family: 'Poor Story', cursive;
     color: white;
 }
 
+/*    border: 1px solid blue;
+    border-radius: 30px;
+    background: rgba(57, 72, 142, .3);
+*/
+
+.colorful-background{
+    border: 1px solid blue;
+    border-radius: 30px;
+    background: rgba(57, 72, 142, .3);
+    width: 25%;
+    padding: 2px 15px;
+    color: white;
+}
+
 #aboutme{
     color: white;
+    padding: 0px 20px;
+
 }
 .carousel{
     overflow: visible;
