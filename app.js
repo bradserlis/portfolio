@@ -25,6 +25,10 @@ sr.reveal('.band_photo', { duration: 1000 });
 sr.reveal('.row', { duration: 1000 });
 sr.reveal('.path_background', { duration: 1000 });
 sr.reveal('.carousel', { duration: 1000 });
+sr.reveal('.row1', { duration: 1500 });
+sr.reveal('.row2', { duration: 1500 });
+sr.reveal('.row3', { duration: 1500 });
+sr.reveal('.row4', { duration: 1500 });
 
 // === 
 // typeit.js

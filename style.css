@@ -19,16 +19,21 @@ p{
 
 .skills{
     color: black;
+    display: inline;
 }
 
-.fsd{
+.textswap{
+    writing-mode: tb-rl;
+    transform: rotate(-180deg);
+}
+
+/*.fsd{
 color: rgb(11, 222, 222);
     border: 1px solid blue;
     border-radius: 30px;
     background: rgba(57, 72, 142, .3);
         padding: 2px 15px;
-
-}
+}*/
 
 #name h1{
     font-size: 180px;
