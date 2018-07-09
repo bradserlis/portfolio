@@ -21,6 +21,7 @@ console.log('sanity check');
 window.sr = ScrollReveal({ reset: true });
 sr.reveal('#skills', { duration: 700 });
 sr.reveal('#aboutme', { duration: 700 });
+sr.reveal('.band_photo', { duration: 1000 });
 
 // === 
 // typeit.js
