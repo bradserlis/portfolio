@@ -67,7 +67,12 @@ font-family: 'Poor Story', cursive;
 */
 
 .chickenrace img{
-    height: 173.95px;
+    height: 179.59px;
+}
+
+.projects-row{
+    position:absolute;
+    bottom: -20px;
 }
 
 .colorful-background{
