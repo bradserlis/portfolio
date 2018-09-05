@@ -20,7 +20,9 @@ console.log('sanity check');
 
 window.sr = ScrollReveal({ reset: true });
 sr.reveal('#skills', { duration: 700 });
+sr.reveal('#whoami', { duration: 1500 });
 sr.reveal('#aboutme', { duration: 700 });
+sr.reveal('.section-title', { duration: 1200 });
 sr.reveal('.band_photo', { duration: 1000 });
 // sr.reveal('.row', { duration: 1000 });
 sr.reveal('.path_background', { duration: 1000 });

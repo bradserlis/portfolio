@@ -48,7 +48,7 @@ color: rgb(11, 222, 222);
 }
 
 #name h1{
-    font-size: 155px;
+    font-size: 140px;
    font-family: 'Advent Pro', sans-serif;
     color: white;
     text-shadow: 1px 1px 10px #8af5eb;
@@ -65,6 +65,10 @@ font-family: 'Poor Story', cursive;
     border-radius: 30px;
     background: rgba(57, 72, 142, .3);
 */
+
+.chickenrace img{
+    height: 173.95px;
+}
 
 .colorful-background{
     border: 1px solid blue;
@@ -107,11 +111,22 @@ font-family: 'Poor Story', cursive;
 }
 
 .profile-photo{
-    width: 30%;
-    margin: 7px 35%;
-        opacity: 0.65;
+    width: 25%;
+    margin: 7px 38%;
+        opacity: 0.80;
 
 }
+
+.parallax-title{
+    height:600px;
+}
+
+.parallax-photo{
+    opacity: 0.80;
+    filter: grayscale(100%);
+    background-image:url("images/profile.jpg");
+}
+
 
 /*.card {
      position: absolute;
