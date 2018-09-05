@@ -66,8 +66,12 @@ font-family: 'Poor Story', cursive;
     background: rgba(57, 72, 142, .3);
 */
 
-.chickenrace img{
-    height: 179.59px;
+.project{
+    height: 195px;
+}
+
+.card img{
+    height: -webkit-fill-available;
 }
 
 .projects-row{
@@ -87,12 +91,11 @@ font-family: 'Poor Story', cursive;
 .section-title{
     color: white;
     padding: 0px 20px;
-
 }
+
 .carousel{
     overflow: visible;
     height: 240px;
-;
 }
 
 /*.chickenrace img{
