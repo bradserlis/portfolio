@@ -168,7 +168,7 @@ font-family: 'Poor Story', cursive;
     width:400px;
 }
 
-#ninja_arena, #jammate, #tell_em{
+#ninja_arena, #jammate, #tell_em, #wtp{
     background: white;
     border: 1px solid #25cbd3;
     border-radius: 80px;
@@ -182,6 +182,9 @@ font-family: 'Poor Story', cursive;
 #tell-em-display{
     width: 200px;
     height: 350px;
+}
+#wtp-display{
+    width: 400px;
 }
 
 
