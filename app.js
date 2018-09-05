@@ -66,6 +66,8 @@ const show_project = (data) => {
     $('#jammate').hide()
     $('#tell_em').removeClass("scale-in")
     $('#tell_em').hide()
+    $('#wtp').removeClass("scale-in")
+    $('#wtp').hide()
     $('#ninja_arena').addClass("scale-in")
   }if($(data).index()=== 1){
     $('#jammate').show()
@@ -73,13 +75,26 @@ const show_project = (data) => {
     $('#ninja_arena').hide()
     $('#tell_em').removeClass("scale-in")
     $('#tell_em').hide()
+    $('#wtp').removeClass("scale-in")
+    $('#wtp').hide()
     $('#jammate').addClass("scale-in")
   }if($(data).index()===2){
     $('#tell_em').show()
     $('#jammate').removeClass("scale-in")
     $('#jammate').hide()
     $('#ninja_arena').removeClass("scale-in")
-    $('#ninja_arena').hide() 
+    $('#ninja_arena').hide()
+    $('#wtp').removeClass("scale-in")
+    $('#wtp').hide() 
     $('#tell_em').addClass("scale-in")
+  }if($(data).index()===3){
+    $('#wtp').show()
+    $('#jammate').removeClass("scale-in")
+    $('#jammate').hide()
+    $('#ninja_arena').removeClass("scale-in")
+    $('#ninja_arena').hide()
+    $('#tell_em').removeClass("scale-in")
+    $('#tell_em').hide() 
+    $('#wtp').addClass("scale-in")
   }
 }
