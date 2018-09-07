@@ -77,7 +77,7 @@ font-family: 'Poor Story', cursive;
 }
 
 .card img{
-    height: -webkit-fill-available;
+    /*height: -webkit-fill-available;*/
 }
 
 .projects-row{
@@ -186,6 +186,5 @@ font-family: 'Poor Story', cursive;
 #wtp-display{
     width: 400px;
 }
-
 
 
