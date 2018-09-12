@@ -22,12 +22,22 @@ nav{
 
 }
 
-.current-project{
-    background-color: white;
-}
 
 img.current-project-screenshot{
     height: 350px;
+}
+
+#current-project{
+
+}
+
+.current-project{
+    color: slategray;
+    text-align: center;
+}
+
+.current-project-app-name{
+    text-align: center;
 }
 
 .skills{
