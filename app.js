@@ -6,8 +6,8 @@ console.log('sanity check');
 
     $('.carousel').carousel({
     onCycleTo: function(data) {
-      console.log(data);
-      console.log($(data).index());
+      // console.log(data);
+      // console.log($(data).index());
       show_project(data);
     }
 });

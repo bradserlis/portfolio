@@ -22,6 +22,14 @@ nav{
 
 }
 
+.current-project{
+    background-color: white;
+}
+
+img.current-project-screenshot{
+    height: 350px;
+}
+
 .skills{
     color: black;
     display: inline;
@@ -141,18 +149,6 @@ font-family: 'Poor Story', cursive;
     background-image:url("images/profile.jpg");
 }
 
-
-/*.card {
-     position: absolute;
-     left: 50%;
-     top: 50%;
-     -moz-transform: translate(-50%, -50%)
-     -webkit-transform: translate(-50%, -50%)
-     -ms-transform: translate(-50%, -50%)
-     -o-transform: translate(-50%, -50%)
-     transform: translate(-50%, -50%);
-}*/
-
 .center-me{
      position: absolute;
      left: 50%;
@@ -185,6 +181,19 @@ font-family: 'Poor Story', cursive;
 }
 #wtp-display{
     width: 400px;
+}
+
+/*@media screen and (max-width: 600px) {
+  div.example {
+    display: none;
+  }
+}
+*/
+@media screen and (max-width: 600px) {
+    img.current-project-screenshot{
+        height: 250px;
+        width: 250px;
+    }
 }
 
 
