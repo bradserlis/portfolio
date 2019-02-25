@@ -7,47 +7,50 @@ font-family: 'Dosis', sans-serif;
 font-family: 'PT Sans Narrow', sans-serif;
 */
 
-
-body{
-    background: #020013;
-    color: black;
+body {
+  background: #020013;
+  color: black;
 }
 
-p{
-    font-family: 'Dosis', sans-serif;
+p {
+  font-family: "Dosis", sans-serif;
 }
 
-nav{
-    background-color: #2e0094;
-
+nav {
+  background-color: #2e0094;
 }
 
-
-img.current-project-screenshot{
-    height: 350px;
+img.current-project-screenshot {
 }
 
-#current-project{
-
+#current-project {
 }
 
-.current-project{
-    color: slategray;
-    text-align: center;
+.current-project {
+  color: slategray;
+  text-align: center;
 }
 
-.current-project-app-name{
-    text-align: center;
+.current-project-app-name {
+  text-align: center;
 }
 
-.skills{
-    color: black;
-    display: inline;
+.skills {
+  color: black;
+  display: inline;
 }
 
-.textswap{
-    writing-mode: tb-rl;
-    transform: rotate(-180deg);
+.now-available {
+  background: rgb(0, 0, 255);
+  color: white;
+  letter-spacing: 1px;
+  text-align: center;
+  font-family: "PT Sans Narrow", sans-serif;
+}
+
+.textswap {
+  writing-mode: tb-rl;
+  transform: rotate(-180deg);
 }
 
 /*.fsd{
@@ -59,30 +62,30 @@ color: rgb(11, 222, 222);
 }*/
 
 .overlay {
-    width: 100%; /* Full width (cover the whole page) */
-    height: 100%; /* Full height (cover the whole page) */
-    top: 0; 
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
-    z-index: 2; /* Specify a stack order in case you're using a different order for other */
-    opacity: 0.5;
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other */
+  opacity: 0.5;
 }
 
-#name h1{
-    font-size: 140px;
-   font-family: 'Advent Pro', sans-serif;
-    color: white;
-    text-shadow: 1px 1px 10px #8af5eb;
-    margin: -0.8rem 0 1.68rem 0;
+#name h1 {
+  font-size: 140px;
+  font-family: "Advent Pro", sans-serif;
+  color: white;
+  text-shadow: 1px 1px 10px #8af5eb;
+  margin: -0.8rem 0 1.68rem 0;
 }
 
-#whoami{
-    text-align: center;
-font-family: 'Poor Story', cursive;
-    color: white;
-    margin-top: 7%;
+#whoami {
+  text-align: center;
+  font-family: "Poor Story", cursive;
+  color: white;
+  margin-top: 7%;
 }
 
 /*    border: 1px solid blue;
@@ -90,36 +93,36 @@ font-family: 'Poor Story', cursive;
     background: rgba(57, 72, 142, .3);
 */
 
-.project{
-    height: 195px;
+.project {
+  height: 195px;
 }
 
-.card img{
-    /*height: -webkit-fill-available;*/
+.card img {
+  /*height: -webkit-fill-available;*/
 }
 
-.projects-row{
-    position:absolute;
-    bottom: -20px;
+.projects-row {
+  position: absolute;
+  bottom: -20px;
 }
 
-.colorful-background{
-    border: 1px solid blue;
-    border-radius: 30px;
-    background: rgba(57, 72, 142, .3);
-    width: fit-content;
-    padding: 2px 15px;
-    color: white;
+.colorful-background {
+  border: 1.5px solid blue;
+  border-radius: 30px;
+  background: rgba(57, 72, 142, 0.3);
+  width: fit-content;
+  padding: 2px 15px;
+  color: white;
 }
 
-.section-title{
-    color: white;
-    padding: 0px 20px;
+.section-title {
+  color: white;
+  padding: 0px 20px;
 }
 
-.carousel{
-    overflow: visible;
-    height: 240px;
+.carousel {
+  overflow: visible;
+  height: 240px;
 }
 
 /*.chickenrace img{
@@ -130,67 +133,69 @@ font-family: 'Poor Story', cursive;
     transform: translateX(398.5px) translateY(0px) translateX(0px) translateX(0px) translateZ(0px) !important;
 }*/
 
-.scale-transition.scale-out{
-    transition: transform .8s, -webkit-transform .8s !important;
+.scale-transition.scale-out {
+  transition: transform 0.8s, -webkit-transform 0.8s !important;
 }
 
- .parallax-container.band_photo{
-      height: 600px;
-} 
-
-.parallax-container.path_background{
-      height: 400px;
+.parallax-container.band_photo {
+  height: 600px;
 }
 
-.profile-photo{
-    width: 25%;
-    margin: 7px 38%;
-        opacity: 0.80;
-
+.parallax-container.path_background {
+  height: 400px;
 }
 
-.parallax-title{
-    height:750px;
+.profile-photo {
+  width: 25%;
+  margin: 7px 38%;
+  opacity: 0.8;
 }
 
-.parallax-photo{
-    opacity: 0.80;
-    filter: grayscale(100%);
-    background-image:url("images/profile.jpg");
+.parallax-title {
+  height: 750px;
 }
 
-.center-me{
-     position: absolute;
-     left: 50%;
-     top: 50%;
-     -moz-transform: translate(-50%, -50%)
-     -webkit-transform: translate(-50%, -50%)
-     -ms-transform: translate(-50%, -50%)
-     -o-transform: translate(-50%, -50%)
-     transform: translate(-50%, -50%);
+.parallax-photo {
+  opacity: 0.8;
+  filter: grayscale(100%);
+  background-image: url("images/profile.jpg");
 }
 
-#ninja-arena-display{
-    width:400px;
+.center-me {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -moz-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
-#ninja_arena, #jammate, #tell_em, #wtp{
-    background: white;
-    border: 1px solid #25cbd3;
-    border-radius: 80px;
-    padding-left: 35px;
-    margin-bottom: 30px;
+#ninja-arena-display {
+  width: 400px;
 }
 
-#jammate-display{
-    width:400px;
+#ninja_arena,
+#jammate,
+#tell_em,
+#wtp {
+  background: white;
+  border: 1px solid #25cbd3;
+  border-radius: 80px;
+  padding-left: 35px;
+  margin-bottom: 30px;
 }
-#tell-em-display{
-    width: 200px;
-    height: 350px;
+
+#jammate-display {
+  width: 400px;
 }
-#wtp-display{
-    width: 400px;
+#tell-em-display {
+  width: 200px;
+  height: 350px;
+}
+#wtp-display {
+  width: 400px;
 }
 
 /*@media screen and (max-width: 600px) {
@@ -200,10 +205,8 @@ font-family: 'Poor Story', cursive;
 }
 */
 @media screen and (max-width: 600px) {
-    img.current-project-screenshot{
-        height: 250px;
-        width: 250px;
-    }
+  img.current-project-screenshot {
+    height: 250px;
+    width: 250px;
+  }
 }
-
-
