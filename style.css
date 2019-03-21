@@ -53,11 +53,14 @@ img.current-project-screenshot {
   transform: rotate(-180deg);
 }
 
-.github-container {
+.icon-container {
   margin: 5px 5px;
 }
 
 .github-icon {
+  height: 22px;
+}
+.linkedin-icon {
   height: 22px;
 }
 
